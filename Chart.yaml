@@ -18,7 +18,7 @@ maintainers:
 sources:
   - https://github.com/temporalio/temporal
 
-# dependencies:
+dependencies:
 # #   - name: cassandra
 # #     version: "0.14.3"
 # #     repository: https://charts.helm.sh/incubator
@@ -28,10 +28,10 @@ sources:
 # #     repository: https://prometheus-community.github.io/helm-charts
 # #     version: 11.0.4
 # #     condition: prometheus.enabled
-#   - name: elasticsearch
-#     repository: https://helm.elastic.co
-#     version: 7.6.2
-#     condition: elasticsearch.enabled
+  - name: elasticsearch
+    repository: https://helm.elastic.co
+    version: 7.6.2
+    condition: elasticsearch.enabled
 # #   - name: kafka
 # #     repository: https://charts.bitnami.com/bitnami
 # #     version: 7.2.9
